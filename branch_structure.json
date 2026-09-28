@@ -1,0 +1,18 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "feature/workflow-fix",
+    "fix/transaction-finality-transport-vs-chain",
+    "main"
+  ],
+  "parent": {
+    "feature/workflow-fix": "main",
+    "fix/transaction-finality-transport-vs-chain": "main",
+    "main": null
+  },
+  "order": [
+    "main",
+    "feature/workflow-fix",
+    "fix/transaction-finality-transport-vs-chain"
+  ]
+}
